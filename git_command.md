@@ -10,3 +10,10 @@ git add .
 
 # commit
 git commit -m "Commit inicial del proyecto"
+
+
+# crea vinculo con repositorio remoto
+git remote add origin https://github.com/jimene99/creproy.git
+
+# subir cambios a git remoto
+git push -u origin master
