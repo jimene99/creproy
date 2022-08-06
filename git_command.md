@@ -27,3 +27,5 @@ ssh-add ~/.ssh/id_ed25519
 
 # bajar los cambios desde github
 git pull origin master
+
+# prepara nueva linea de readme
