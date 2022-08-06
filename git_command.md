@@ -36,3 +36,10 @@ git pull
 
 # subir cambios a git remoto
 git push
+
+
+# edita el archivo de configuracion global de git
+git config --global -e
+
+# alias para log
+lg = log --oneline --decorate --all --graph
