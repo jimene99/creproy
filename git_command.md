@@ -28,4 +28,11 @@ ssh-add ~/.ssh/id_ed25519
 # bajar los cambios desde github
 git pull origin master
 
-# prepara nueva linea de readme
+# trae los cambios del github
+git fetch origin master
+
+# mezcla los cambios del github
+git pull
+
+# subir cambios a git remoto
+git push
