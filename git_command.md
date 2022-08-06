@@ -24,3 +24,6 @@ ssh-keygen -t ed25519 -C "myemail@gmail.com"
 # para agregar las llaves al agente
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
+
+# bajar los cambios desde github
+git pull origin master
